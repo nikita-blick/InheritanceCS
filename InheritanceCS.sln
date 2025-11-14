@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceCS", "InheritanceCS\InheritanceCS.csproj", "{0BBA79A0-D518-4640-BAA0-BA84228EB434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy", "Academy\Academy.csproj", "{365021CE-A4ED-4FCB-A855-5836AEC13D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractGeometry", "AbstractGeometry\AbstractGeometry.csproj", "{CD149FDF-B039-45E2-9283-C54CCB9DAF90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBA79A0-D518-4640-BAA0-BA84228EB434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBA79A0-D518-4640-BAA0-BA84228EB434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBA79A0-D518-4640-BAA0-BA84228EB434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBA79A0-D518-4640-BAA0-BA84228EB434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365021CE-A4ED-4FCB-A855-5836AEC13D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365021CE-A4ED-4FCB-A855-5836AEC13D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365021CE-A4ED-4FCB-A855-5836AEC13D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365021CE-A4ED-4FCB-A855-5836AEC13D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD149FDF-B039-45E2-9283-C54CCB9DAF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD149FDF-B039-45E2-9283-C54CCB9DAF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD149FDF-B039-45E2-9283-C54CCB9DAF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD149FDF-B039-45E2-9283-C54CCB9DAF90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
