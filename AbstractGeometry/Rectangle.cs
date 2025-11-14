@@ -40,6 +40,16 @@ namespace AbstractGeometry
 			e.Graphics.FillRectangle(brush, StartX, StartY, (float)Width, (float)Height);
 
 		}
+		public void DrawDiagonal(System.Windows.Forms.PaintEventArgs e)
+		{
+			Pen pen = new Pen(Color, 1);
+			e.Graphics.DrawLine
+				(
+				pen,
+				StartX, StartY,
+				StartX + (int)Width, StartY + (int)Height
+				);
+		}
 		public override void Info(System.Windows.Forms.PaintEventArgs e)
 		{
 			Console.WriteLine(this.GetType().ToString().Split('.').Last() + ":");

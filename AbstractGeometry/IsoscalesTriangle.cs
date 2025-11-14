@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
-using System.Security.Cryptography.X509Certificates;
 
 namespace AbstractGeometry
 {
@@ -52,7 +51,7 @@ namespace AbstractGeometry
 				new Point(StartX, StartY+(int)GetHeight()),
 				new Point(StartX+(int)Base, StartY+(int)GetHeight()),
 				new Point(StartX+(int)Base/2, StartY)
-			}
+			};
 			e.Graphics.DrawPolygon(pen, vertices);
 		}
 		public override void Info(PaintEventArgs e)
